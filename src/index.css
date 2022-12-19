@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #2e303a;
+}
+
 @layer components {
   .panel {
     @apply text-left bg-slate-500/50 rounded-lg h-fit flex flex-col gap-2 p-4 hover:backdrop-blur-[3px] transition-all ease-in-out hover:cursor-pointer;

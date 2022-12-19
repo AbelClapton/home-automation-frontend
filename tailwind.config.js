@@ -7,6 +7,9 @@ module.exports = {
 			backdropBlur: {
 				xs: '2px',
 			},
+			boxShadow: {
+				glow: '0px 3px 6px 6px, inset 0px 3px 6px 3px',
+			},
 		},
 	},
 	plugins: [],

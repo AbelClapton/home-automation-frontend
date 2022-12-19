@@ -89,7 +89,7 @@ const Icon = defineAsyncComponent(() => import(`./icons/${props.icon}Icon.vue`))
 	}
 
 	.nav-item-tooltip {
-		@apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-800 text-xs font-bold scale-0 transition-all duration-100 origin-left;
+		@apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-800 text-xs font-bold scale-0 transition-all duration-100 origin-left z-10;
 	}
 }
 </style>

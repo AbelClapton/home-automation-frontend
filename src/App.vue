@@ -1,7 +1,10 @@
 <template>
 	<div class="p-3 h-full text-xs flex gap-3">
 		<TheSidebar />
-		<div id="main" class="w-full flex flex-col pb-3 bg-slate-500/50">
+		<div
+			id="main"
+			class="w-full flex flex-col pb-3 bg-slate-500/50 rounded-lg backdrop-blur-[2px] shadow-inner-sm shadow-slate-600"
+		>
 			<div
 				id="connections-nav"
 				class="text-xs bg-slate-900 flex gap-1 px-4 items-center text-slate-500 rounded-lg w-fit ml-6 -mt-1"
@@ -13,7 +16,7 @@
 				<div class="btn-sm">Neo4j</div>
 			</div>
 
-			<div class="container w-full h-full py-3 px-7">
+			<div class="container w-full h-full py-1 px-7">
 				<router-view></router-view>
 			</div>
 		</div>
