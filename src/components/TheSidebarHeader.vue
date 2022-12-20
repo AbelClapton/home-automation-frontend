@@ -2,7 +2,7 @@
 	<div class="flex items-center justify-between">
 		<a
 			href="#"
-			class="bg-blue-600 p-1.5 rounded flex items-center justify-center focus:outline-none focus:ring-1 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+			class="bg-sky-500 p-1.5 rounded flex items-center justify-center focus:outline-none focus:ring-1 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
 			@click="$emit('toggleSidebar')"
 			><svg
 				class="w-5 h-5 text-white stroke-current"

@@ -18,6 +18,6 @@ body {
   }
 
   .btn-sm {
-    @apply py-0.5 px-1 text-slate-400 hover:text-white hover:cursor-pointer items-center;
+    @apply py-0.5 px-3 text-slate-400 hover:text-white hover:cursor-pointer items-center;
   }
 }
