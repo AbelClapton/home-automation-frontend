@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-// eslint-disable-next-line no-undef
 module.exports = {
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
@@ -8,7 +7,11 @@ module.exports = {
 				xs: '2px',
 			},
 			boxShadow: {
-				glow: '0px 3px 6px 6px, inset 0px 3px 6px 3px',
+				'inner-light': 'inset 0px -12px 60px 10px rgba(0,0,0,0.3)',
+				'inner-dark': 'inset 0px -12px 60px 10px rgba(0,0,0,0.9)',
+			},
+			borderWidth: {
+				'1': '1px',
 			},
 		},
 	},

@@ -2,7 +2,7 @@
 	<!-- SIDEBAR PANEL -->
 	<div
 		id="the-sidebar-panel"
-		class="flex flex-col gap-3 bg-black/90 rounded-md transition-all duration-300 ease-in-out max-h-screen"
+		class="hidden md:flex flex-col gap-3 bg-black/90 rounded-md transition-all duration-300 ease-in-out max-h-screen"
 		:class="[show ? 'show w-64' : 'hide w-12']"
 	>
 		<TheSidebarHeader @toggleSidebar="toggleSidebar" />

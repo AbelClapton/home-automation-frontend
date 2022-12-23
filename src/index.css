@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #2e303a;
+  width: 100vw;
+  height: 100vh;
 }
 
 @layer components {
@@ -20,4 +22,22 @@ body {
   .btn-sm {
     @apply py-0.5 px-3 text-slate-400 hover:text-white hover:cursor-pointer items-center;
   }
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+	color: white;
+	background: rgba(0 0 0 / 0.6) !important;
+	backdrop-filter: blur(12px);
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border: 0 !important; 
+}
+
+.apexcharts-tooltip-title,
+.apexcharts-xaxistooltip-bottom.apexcharts-theme-light {
+	display: none;
+}
+
+.apexcharts-gridline {
+  opacity: 0.3 !important;
 }

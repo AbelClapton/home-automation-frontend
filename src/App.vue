@@ -11,7 +11,8 @@ import TheSidebar from '@/components/TheSidebar.vue'
 
 <style>
 #app {
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 }
 
 #app {
